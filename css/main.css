@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: mintcream;
+}
+
+/* CSS for the Nav bar at the top of the page  */
+
+nav {
+    background: silver;
+    width: 100%;
+    height: 20vh;
+}
+
+/* Title Section of the Nav Title */
+
+.title {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 20vh;
+    float: left;
+}
+
+.nav-title {
+    color: #556B2F;
+    text-shadow: 1px 1px white;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 6%;
+}
+
+/*  Css for the Nav Links  */
+
+.menu {
+    width: 40%;
+    float: right;
+    height: 20vh;
+    padding: 1%;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: inline-flex;
+    justify-content: space-around;
+    margin-top: 8%;
+
+
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: #556B2F;
+    text-shadow: 1px 1px white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/*  CSS for the first section on the webpage */
+
+.time-section {
+    width: 100%;
+    height: 10vh;
+    background: red;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+#time {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
